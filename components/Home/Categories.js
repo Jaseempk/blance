@@ -72,7 +72,7 @@ const Categories = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div className="bg-[#4895ef] h-60 flex items-center justify-center shadow-lg flex-col text-center rounded-md">
-              <strong className="text-xl text-[#2a3254]">Web3 Front-end Development</strong>
+              <strong className="text-xl text-[#2a3254]">Smart-Contract Audits</strong>
               <img
                 className="w-28 h-28"
                 src="https://i.ibb.co/mTdNWm3/image-4-removebg-preview.png"

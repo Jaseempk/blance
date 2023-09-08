@@ -4,13 +4,13 @@ import React from "react";
 const howWeWorks = [
   {
     title: "Reach Us",
-    desc: " First you can contact our team by ohone and What's app number 01989832323 and out email is freelance@gmail.com.",
+    desc: " First you can contact our team by phone and What's app number 01989832323 and out email is freelance@gmail.com.",
     id: "01",
     img: "https://i.ibb.co/wwwqLFV/call-us.jpg",
   },
 
   {
-    title: "Kick of you project",
+    title: "Kick off your project",
     desc: "To fullfill your needs such as consultation design process and other desgin matters get peace of mind fast though.",
     id: "02",
     img: "https://i.ibb.co/7C3nx2c/kich-1.png",
@@ -36,21 +36,21 @@ const HowWeWorks = () => {
         <h2 className="text-center text-3xl lg:text-5xl text-[#2A3254] font-semibold mt-16">
           See How We Works
         </h2>
-        <p className="text-sm text-gray-600 text-center w-[80%] lg:w-[30%] mx-auto pt-2">
+        <p className="text-sm text-white-600 text-center w-[80%] lg:w-[30%] mx-auto pt-2">
           our offical interior design and build team have more than 10 years of
           experience in the workplace design industry.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 mt-10 gap-y-3 md:gap-4">
           {howWeWorks.map((hw, ind) => (
             <div
-              className="flex shadow-sm shadow-orange-700 rounded-md overflow-hidden"
+              className="flex shadow-sm shadow-[#3f37c9] rounded-md overflow-hidden"
               key={ind}
             >
               <div className="w-[40%] h-full">
                 <img className="w-full h-full" src={hw.img} alt="" />
               </div>
               <div className="w-[60%]">
-                <p className="text-gray-300 px-4 font-semibold text-lg bg-orange-700">
+                <p className="text-white-300 px-4 font-semibold text-lg bg-[#4895ef]">
                   {hw.id}
                 </p>
                 <div className="px-3">

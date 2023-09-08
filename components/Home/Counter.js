@@ -22,15 +22,15 @@ const Counter = () => {
             duration={10}
             suffix="+"
           />
-          <h5 className="my-3 text-xl">Freelance Developer</h5>
-          <h4 className=" rounded-br-full  top-0 left-0 absolute bg-orange-700 shadow-lg p-8 inline-block"></h4>
+          <h5 className="my-3 text-xl">Freelance Developers</h5>
+          <h4 className=" rounded-br-full  top-0 left-0 absolute bg-[#00a6fb] shadow-lg p-8 inline-block"></h4>
         </motion.div>
 
         <motion.div
           initial={{ scale: 0, opacity: 0, visibility: "hidden" }}
           animate={{ scale: 1, opacity: 1, visibility: "visible" }}
           transition={{ duration: 0.4 }}
-          className=" shadow-2xl rounded-lg py-10 bg-orange-700"
+          className=" shadow-2xl rounded-lg py-10 bg-[#00a6fb]"
         >
           <div className="flex justify-center mb-2">
             {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -42,7 +42,7 @@ const Counter = () => {
             duration={10}
             suffix="+"
           />
-          <h5 className="my-3 text-xl text-[#fff]">Positive Feedback</h5>
+          <h5 className="my-3 text-xl text-[#fff]">Positive Feedbacks</h5>
         </motion.div>
         <motion.div
           initial={{ scale: 0, opacity: 0, visibility: "hidden" }}
@@ -60,8 +60,8 @@ const Counter = () => {
             duration={10}
             suffix="+"
           />
-          <h5 className="my-3 text-xl">Complete Services</h5>
-          <h4 className=" rounded-bl-full  top-0 right-0 absolute bg-orange-700 p-8 inline-block"></h4>
+          <h5 className="my-3 text-xl">Completed Services</h5>
+          <h4 className=" rounded-bl-full  top-0 right-0 absolute bg-[#00a6fb] p-8 inline-block"></h4>
         </motion.div>
       </div>
     </div>
